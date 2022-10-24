@@ -21,7 +21,7 @@ public class BallHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        mainCamera = Camera.main;
+        mainCamera = Camera.main; // Get reference to the main camera.
 
         SpawnNewBall();
     }
